@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5845410A1C957EC3007FBB55 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584541081C957EC3007FBB55 /* BWWalkthroughPageViewController.swift */; };
+		5845410B1C957EC3007FBB55 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584541091C957EC3007FBB55 /* BWWalkthroughViewController.swift */; };
 		58D1E8521C941715009C4DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1E8511C941715009C4DE2 /* AppDelegate.swift */; };
 		58D1E8541C941715009C4DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1E8531C941715009C4DE2 /* ViewController.swift */; };
 		58D1E8571C941715009C4DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D1E8551C941715009C4DE2 /* Main.storyboard */; };
 		58D1E85C1C941715009C4DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D1E85A1C941715009C4DE2 /* LaunchScreen.storyboard */; };
-		58D1E8661C941731009C4DE2 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1E8641C941731009C4DE2 /* BWWalkthroughPageViewController.swift */; };
-		58D1E8671C941731009C4DE2 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1E8651C941731009C4DE2 /* BWWalkthroughViewController.swift */; };
 		58D1E8691C941F8B009C4DE2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D1E8681C941F8B009C4DE2 /* Media.xcassets */; };
 		58D1E86F1C942DAE009C4DE2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1E86E1C942DAE009C4DE2 /* MainViewController.swift */; };
 		58D1E8711C943467009C4DE2 /* MyCustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1E8701C943467009C4DE2 /* MyCustomPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		584541081C957EC3007FBB55 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		584541091C957EC3007FBB55 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
 		58D1E84E1C941715009C4DE2 /* TB_Walkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TB_Walkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D1E8511C941715009C4DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58D1E8531C941715009C4DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58D1E8561C941715009C4DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58D1E85B1C941715009C4DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58D1E85D1C941715009C4DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58D1E8641C941731009C4DE2 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
-		58D1E8651C941731009C4DE2 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
 		58D1E8681C941F8B009C4DE2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		58D1E86E1C942DAE009C4DE2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		58D1E8701C943467009C4DE2 /* MyCustomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomPageViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584541071C957EC3007FBB55 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				584541081C957EC3007FBB55 /* BWWalkthroughPageViewController.swift */,
+				584541091C957EC3007FBB55 /* BWWalkthroughViewController.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
 		58D1E8451C941715009C4DE2 = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +72,7 @@
 		58D1E8501C941715009C4DE2 /* TB_Walkthrough */ = {
 			isa = PBXGroup;
 			children = (
-				58D1E8631C941731009C4DE2 /* Libs */,
+				584541071C957EC3007FBB55 /* Libs */,
 				58D1E8511C941715009C4DE2 /* AppDelegate.swift */,
 				58D1E8531C941715009C4DE2 /* ViewController.swift */,
 				58D1E8551C941715009C4DE2 /* Main.storyboard */,
@@ -73,16 +82,6 @@
 				58D1E8701C943467009C4DE2 /* MyCustomPageViewController.swift */,
 			);
 			path = TB_Walkthrough;
-			sourceTree = "<group>";
-		};
-		58D1E8631C941731009C4DE2 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				58D1E8641C941731009C4DE2 /* BWWalkthroughPageViewController.swift */,
-				58D1E8651C941731009C4DE2 /* BWWalkthroughViewController.swift */,
-			);
-			name = Libs;
-			path = ../../../../../Desktop/Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,12 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D1E8671C941731009C4DE2 /* BWWalkthroughViewController.swift in Sources */,
-				58D1E8661C941731009C4DE2 /* BWWalkthroughPageViewController.swift in Sources */,
 				58D1E86F1C942DAE009C4DE2 /* MainViewController.swift in Sources */,
 				58D1E8541C941715009C4DE2 /* ViewController.swift in Sources */,
+				5845410B1C957EC3007FBB55 /* BWWalkthroughViewController.swift in Sources */,
 				58D1E8711C943467009C4DE2 /* MyCustomPageViewController.swift in Sources */,
 				58D1E8521C941715009C4DE2 /* AppDelegate.swift in Sources */,
+				5845410A1C957EC3007FBB55 /* BWWalkthroughPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +308,7 @@
 				58D1E8621C941715009C4DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

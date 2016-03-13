@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dv7-zh-7wY">
+                            <button hidden="YES" opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dv7-zh-7wY">
                                 <rect key="frame" x="20" y="281" width="25" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="AeP-3Q-mvP"/>
@@ -39,7 +39,7 @@
                                     <action selector="nextPage" destination="BYZ-38-t0r" eventType="touchUpInside" id="aha-af-qaM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwD-Lm-j8F">
+                            <button hidden="YES" opaque="NO" contentMode="redraw" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwD-Lm-j8F">
                                 <rect key="frame" x="555" y="28" width="24" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="0P6-Y7-9uT"/>
