@@ -116,6 +116,8 @@
 				TargetAttributes = {
 					58D1E84D1C941715009C4DE2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6LPKYU65PQ;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -271,10 +273,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				INFOPLIST_FILE = TB_Walkthrough/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitwaker.TB-Walkthrough";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitwaker.TB-Walkthrough.gaurav";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -282,10 +286,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LPKYU65PQ;
 				INFOPLIST_FILE = TB_Walkthrough/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitwaker.TB-Walkthrough";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitwaker.TB-Walkthrough.gaurav";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

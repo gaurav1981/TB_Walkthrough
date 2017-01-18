@@ -15,7 +15,7 @@ class MyCustomPageViewController: BWWalkthroughPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.layer.zPosition = -1000
-        view.layer.doubleSided = false
+        view.layer.isDoubleSided = false
         self.backgroundView.layer.masksToBounds = false
         
         // Do any additional setup after loading the view.
@@ -26,7 +26,7 @@ class MyCustomPageViewController: BWWalkthroughPageViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func walkthroughDidScroll(position: CGFloat, offset: CGFloat) {
+    override func walkthroughDidScroll(_ position: CGFloat, offset: CGFloat) {
         var tr = CATransform3DIdentity
         tr.m34 = -1/1000.0
         view.layer.transform = CATransform3DRotate(tr, CGFloat(M_PI)  * (1.0 - offset), 0.5,1, 0.2)
