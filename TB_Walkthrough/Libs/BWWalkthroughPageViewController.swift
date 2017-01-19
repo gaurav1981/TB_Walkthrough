@@ -88,8 +88,8 @@ open class BWWalkthroughPageViewController: UIViewController, BWWalkthroughPage 
     
     open func walkthroughDidScroll(_ position: CGFloat, offset: CGFloat) {
         
-        for(i in 0 ..< subsWeights.count ){
-            
+//        for(i in 0 ..< subsWeights.count ){
+		for i in 0 ..< subsWeights.count {
             // Perform Transition/Scale/Rotate animations
             switch animation{
                 
